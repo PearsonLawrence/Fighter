@@ -1,0 +1,503 @@
+﻿Log file open, 08/12/17 15:31:14
+LogInit:Display: Running engine for game: Fighter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1152386396) SRandInit(1152386396).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.112386
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.12-22.31.15:354][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-22.31.15:354][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.12-22.31.15:366][  0]LogInit: Computer: DESKTOP-8KPMQR7
+[2017.08.12-22.31.15:366][  0]LogInit: User: pears
+[2017.08.12-22.31.15:366][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.08.12-22.31.15:366][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2017.08.12-22.31.15:367][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.08.12-22.31.15:367][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.12-22.31.15:367][  0]LogMemory: Process Physical Memory: 273.90 MB used, 273.90 MB peak
+[2017.08.12-22.31.15:367][  0]LogMemory: Process Virtual Memory: 260.18 MB used, 260.18 MB peak
+[2017.08.12-22.31.15:367][  0]LogMemory: Physical Memory: 5287.30 MB used,  60145.63 MB free, 65432.92 MB total
+[2017.08.12-22.31.15:367][  0]LogMemory: Virtual Memory: 626.82 MB used,  60145.63 MB free, 134217728.00 MB total
+[2017.08.12-22.31.15:433][  0]LogInit: Using OS detected language (en-US).
+[2017.08.12-22.31.15:433][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.12-22.31.15:441][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.12-22.31.16:432][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.12-22.31.17:227][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.08.12-22.31.17:227][  0]LogD3D11RHI:       7873/0/32716 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.12-22.31.17:229][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.12-22.31.17:229][  0]LogD3D11RHI:       0/0/32716 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.12-22.31.17:229][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.12-22.31.17:234][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.12-22.31.17:234][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.12-22.31.17:234][  0]LogWindows: EnumDisplayDevices:
+[2017.08.12-22.31.17:234][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.08.12-22.31.17:234][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.08.12-22.31.17:234][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.12-22.31.17:234][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.12-22.31.17:234][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.12-22.31.17:234][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.08.12-22.31.17:234][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.12-22.31.17:234][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.12-22.31.17:234][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.12-22.31.17:888][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.12-22.31.17:923][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.12-22.31.18:015][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Intermediate/Shaders/WorkingDirectory/12136/).
+[2017.08.12-22.31.18:016][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pears/AppData/Local/Temp/UnrealShaderWorkingDir/D95569644BD09EC8BBDD46848C99D968/'.
+[2017.08.12-22.31.18:016][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.12-22.31.19:104][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.12-22.31.19:153][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.12-22.31.19:203][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.12-22.31.19:252][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.12-22.31.19:302][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.12-22.31.19:352][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.12-22.31.19:402][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.12-22.31.19:451][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.12-22.31.19:497][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.12-22.31.19:545][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.12-22.31.19:595][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.12-22.31.19:644][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.12-22.31.19:693][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.12-22.31.19:741][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.12-22.31.19:790][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.12-22.31.19:888][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.12-22.31.19:888][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.12-22.31.19:928][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.12-22.31.20:018][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.12-22.31.20:044][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.12-22.31.20:091][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.12-22.31.20:139][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.12-22.31.20:187][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.12-22.31.20:235][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.12-22.31.20:235][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.12-22.31.20:703][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.12-22.31.20:795][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/pears/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.12-22.31.20:795][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/pears/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.12-22.31.20:795][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.12-22.31.20:795][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.12-22.31.20:795][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.12-22.31.20:795][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.12-22.31.20:810][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.12-22.31.20:823][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pears/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.12-22.31.20:831][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.12-22.31.20:831][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.12-22.31.20:832][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-22.31.20:832][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.12-22.31.21:144][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.12-22.31.21:247][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.12-22.31.21:393][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.12-22.31.21:438][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.12-22.31.21:487][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.12-22.31.21:487][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.12-22.31.21:487][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.12-22.31.22:075][  0]LogNetVersion: Fighter , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3867941612)
+[2017.08.12-22.31.22:136][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.08.12-22.31.22:199][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.042621 seconds
+[2017.08.12-22.31.22:203][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.12-22.31.22:203][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.12-22.31.22:203][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.12-22.31.22:260][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.12-22.31.24:590][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.12-22.31.24:629][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.12-22.31.25:460][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.12-22.31.25:866][  0]SourceControl: Info Source control is disabled
+[2017.08.12-22.31.25:929][  0]SourceControl: Info Source control is disabled
+[2017.08.12-22.31.25:981][  0]SourceControl: Info Source control is disabled
+[2017.08.12-22.31.26:030][  0]SourceControl: Info Source control is disabled
+[2017.08.12-22.31.26:721][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.12-22.31.27:325][  0]LogEngine: Initializing Engine...
+[2017.08.12-22.31.27:326][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.12-22.31.27:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.12-22.31.27:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.12-22.31.27:679][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.12-22.31.27:691][  0]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.08.12-22.31.27:728][  0]LogInit: FAudioDevice initialized.
+[2017.08.12-22.31.27:773][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/pears/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.12-22.31.27:784][  0]LogInit: Texture streaming: Enabled
+[2017.08.12-22.31.27:871][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.12-22.31.28:093][  0]LogInit: Transaction tracking system initialized
+[2017.08.12-22.31.28:409][  0]BlueprintLog: New page: Editor Load
+[2017.08.12-22.31.29:382][  0]LocalizationService: Info Localization service is disabled
+[2017.08.12-22.31.30:076][  0]LogConsoleResponse:Display: 
+[2017.08.12-22.31.30:229][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.12-22.31.30:229][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.12-22.31.30:580][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pears/Documents/Unreal Projects/Fighter/Content/' took 0.02s
+[2017.08.12-22.31.31:270][  0]SourceControl: Info Source control is disabled
+[2017.08.12-22.31.31:270][  0]Cmd: MAP LOAD FILE="../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.12-22.31.31:271][  0]LightingResults: New page: Lighting Build
+[2017.08.12-22.31.31:313][  0]MapCheck: New page: Map Check
+[2017.08.12-22.31.31:313][  0]LightingResults: New page: Lighting Build
+[2017.08.12-22.31.31:504][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.12-22.31.31:511][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.12-22.31.31:533][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.12-22.31.31:609][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.369ms to complete.
+[2017.08.12-22.31.31:609][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.339
+[2017.08.12-22.31.31:912][  0]LogCollectionManager: Loaded 0 collections in 0.002440 seconds
+[2017.08.12-22.31.32:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pears/Documents/Unreal Projects/Fighter/Saved/Collections/' took 0.01s
+[2017.08.12-22.31.32:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pears/Documents/Unreal Projects/Fighter/Content/Developers/pears/Collections/' took 0.01s
+[2017.08.12-22.31.32:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/pears/Documents/Unreal Projects/Fighter/Content/Collections/' took 0.01s
+[2017.08.12-22.31.32:008][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.12-22.31.32:017][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2332 classes and 495 folders.
+[2017.08.12-22.31.32:084][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.08.12-22.31.32:189][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.08.12-22.31.32:224][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.12-22.31.32:230][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.12-22.31.32:232][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.12-22.31.32:235][  0]LogSlate: Took 0.001118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.12-22.31.32:236][  0]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.12-22.31.32:326][  0]LogRenderer: Reallocating scene render targets to support 1428x1036 NumSamples 1 (Frame:1).
+[2017.08.12-22.31.32:503][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.12-22.31.32:571][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.08.12-22.31.32:572][  0]LogLoad: (Engine Initialization) Total time: 19.36 seconds
+[2017.08.12-22.31.32:572][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.08.12-22.31.32:572][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.12-22.31.32:572][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.12-22.31.32:581][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.12-22.31.32:582][  0]LogOcInput: OculusInput pre-init called
+[2017.08.12-22.31.32:582][  0]LogHMD: Starting GearVRController plugin
+[2017.08.12-22.31.32:596][  0]LogAssetRegistry: Asset discovery search completed in 10.4826 seconds
+[2017.08.12-22.31.32:598][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.12-22.31.32:598][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000125 seconds (updated 0 objects)
+[2017.08.12-22.31.32:600][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.12-22.31.32:677][  1]LogRenderer: Reallocating scene render targets to support 1428x1052 NumSamples 1 (Frame:3).
+[2017.08.12-22.31.33:635][ 93]LogSlate: Took 0.001275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.12-23.12.11:765][467]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.12-23.12.11:804][467]LogSlate: Took 0.001139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.12-23.13.18:828][482]Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" -game -rocket -progress
+[2017.08.12-23.13.19:132][482]Discovering modules, targets and source code for project...
+[2017.08.12-23.13.22:445][482]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.12-23.13.24:067][482]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.08.12-23.13.24:101][482]Candidate modules for hot reload:
+[2017.08.12-23.13.24:101][482]  Fighter
+[2017.08.12-23.13.24:102][482]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 7873 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.13.42:981][482]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:13:42 AM
+[2017.08.12-23.13.42:981][482]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.13.42:981][482]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.13.42:981][482]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.13.42:982][482]CompilerResultsLog: Info Reflection code generated for FighterEditor in 6.6342856 seconds
+[2017.08.12-23.13.42:982][482]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.08.12-23.13.42:982][482]CompilerResultsLog: Info Fighter.generated.cpp
+[2017.08.12-23.13.42:982][482]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.13.42:982][482]CompilerResultsLog: Info c1xx: fatal error C1083: Cannot open source file: 'C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.cpp': No such file or directory
+[2017.08.12-23.13.42:983][482]CompilerResultsLog:Error: Error c:\users\pears\documents\unreal projects\fighter\intermediate\build\win64\ue4editor\inc\fighter\Fighter.generated.dep.h(9) : fatal error C1083: Cannot open include file: 'CombatCameraController.h': No such file or directory
+[2017.08.12-23.13.42:983][482]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\pears\Documents\Unreal Projects\Fighter\Binaries\Win64\UE4Editor-Fighter-7873.dll
+[2017.08.12-23.13.42:983][482]CompilerResultsLog: Info Total build time: 18.59 seconds (Local executor: 0.00 seconds)
+[2017.08.12-23.13.42:983][482]LogMainFrame: MainFrame: Module compiling took 18.917 seconds
+[2017.08.12-23.13.42:984][482]Warning: HotReload failed, recompile failed
+[2017.08.12-23.13.42:990][482]Warning: RebindPackages failed because the compiler could not be started.
+[2017.08.12-23.13.49:933][ 96]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.08.12-23.13.49:947][ 96]Candidate modules for hot reload:
+[2017.08.12-23.13.49:947][ 96]  Fighter
+[2017.08.12-23.13.49:947][ 96]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 2842 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.13.49:949][ 96]Warning: Starting HotReload took  0.0s.
+[2017.08.12-23.14.06:373][369]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:14:06 AM
+[2017.08.12-23.14.06:373][369]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.14.06:373][369]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.14.06:373][369]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info Reflection code generated for FighterEditor in 6.9089604 seconds
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info Fighter.generated.cpp
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info [3/4] Link UE4Editor-Fighter-2842.dll
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info [4/4] Link UE4Editor-Fighter-2842.lib
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2842.suppressed.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2842.suppressed.exp
+[2017.08.12-23.14.06:374][369]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2842.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2842.exp
+[2017.08.12-23.14.06:375][369]CompilerResultsLog: Info Total build time: 16.19 seconds (Local executor: 3.85 seconds)
+[2017.08.12-23.14.06:375][369]LogMainFrame: MainFrame: Module compiling took 16.442 seconds
+[2017.08.12-23.14.06:456][369]LogClass: Could not find existing class CombatCameraController in package /Script/Fighter for HotReload, assuming new class
+[2017.08.12-23.14.06:465][369]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0032 seconds. Added 3 classes and 3 folders.
+[2017.08.12-23.14.06:467][369]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.14.06:567][369]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2334 classes and 498 folders.
+[2017.08.12-23.14.06:567][369]Display: HotReload took 16.6s.
+[2017.08.12-23.14.22:128][450]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 112 classes and 0 folders.
+[2017.08.12-23.14.22:802][451]LogSlate: Took 0.001154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.12-23.14.49:587][ 43]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/Camera/CombatCameraController.h'
+[2017.08.12-23.14.49:691][ 43]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/Camera/CombatCameraController.cpp'
+[2017.08.12-23.18.49:423][894]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.12-23.18.50:237][895]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/Camera/CombatCameraController.h'
+[2017.08.12-23.18.50:256][895]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/Camera/CombatCameraController.cpp'
+[2017.08.12-23.19.58:785][531]LogHotReload: New module detected: UE4Editor-Fighter-6590.dll
+[2017.08.12-23.19.59:134][533]LogHotReload: Starting Hot-Reload from IDE
+[2017.08.12-23.19.59:241][533]LogClass: Could not find existing class CombatCameraController in package /Script/Fighter for HotReload, assuming new class
+[2017.08.12-23.19.59:242][533]LogClass: Function SetDefaults is new.
+[2017.08.12-23.19.59:247][533]LogHotReload: Re-instancing CombatCameraController after hot-reload.
+[2017.08.12-23.19.59:333][533]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0029 seconds. Added 3 classes and 3 folders.
+[2017.08.12-23.19.59:336][533]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.19.59:623][533]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2334 classes and 498 folders.
+[2017.08.12-23.19.59:637][533]Display: HotReload took  0.5s.
+[2017.08.12-23.20.32:728][799]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.12-23.20.33:499][800]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/Camera/CombatCameraController.h'
+[2017.08.12-23.20.33:519][800]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/Camera/CombatCameraController.cpp'
+[2017.08.12-23.21.19:024][  2]Candidate modules for hot reload:
+[2017.08.12-23.21.19:024][  2]  Fighter
+[2017.08.12-23.21.19:025][  2]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 2431 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.21.19:027][  2]Warning: Starting HotReload took  0.0s.
+[2017.08.12-23.21.33:189][190]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:21:33 AM
+[2017.08.12-23.21.33:189][190]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.21.33:189][190]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.21.33:189][190]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info Reflection code generated for FighterEditor in 6.1780389 seconds
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info Fighter.generated.cpp
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info [3/4] Link UE4Editor-Fighter-2431.dll
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info [4/4] Link UE4Editor-Fighter-2431.lib
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2431.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2431.exp
+[2017.08.12-23.21.33:190][190]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2431.suppressed.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-2431.suppressed.exp
+[2017.08.12-23.21.33:191][190]CompilerResultsLog: Info Total build time: 13.74 seconds (Local executor: 2.35 seconds)
+[2017.08.12-23.21.33:191][190]LogMainFrame: MainFrame: Module compiling took 14.182 seconds
+[2017.08.12-23.21.33:294][190]LogClass: Could not find existing class CombatCameraController in package /Script/Fighter for HotReload, assuming new class
+[2017.08.12-23.21.33:294][190]LogClass: Function SetDefaults is new.
+[2017.08.12-23.21.33:300][190]LogHotReload: Re-instancing CombatCameraController after hot-reload.
+[2017.08.12-23.21.33:396][190]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0031 seconds. Added 3 classes and 2 folders.
+[2017.08.12-23.21.33:400][190]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.21.33:679][190]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2334 classes and 497 folders.
+[2017.08.12-23.21.33:680][190]Display: HotReload took 14.7s.
+[2017.08.12-23.21.33:702][191]LogHotReload: New module detected: UE4Editor-Fighter-2431.dll
+[2017.08.12-23.21.33:719][192]LogHotReload: Starting Hot-Reload from IDE
+[2017.08.12-23.21.33:841][192]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0019 seconds. Added 3 classes and 2 folders.
+[2017.08.12-23.21.33:844][192]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.21.34:079][192]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2334 classes and 497 folders.
+[2017.08.12-23.21.34:092][192]Display: HotReload took  0.4s.
+[2017.08.12-23.21.37:643][464]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/CombatCameraController.h'
+[2017.08.12-23.21.37:708][464]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/CombatCameraController.cpp'
+[2017.08.12-23.23.46:285][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.063
+[2017.08.12-23.23.46:289][850]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/WorldCamera] ([1] browsable assets)...
+[2017.08.12-23.23.46:290][850]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/WorldCamera]
+[2017.08.12-23.23.46:330][850]LogSavePackage: Save=30.20ms
+[2017.08.12-23.23.46:330][850]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/WorldCamera_Auto18400B59F41C9B7856F6D2388A4D4FA6B.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/WorldCamera_Auto1.uasset'
+[2017.08.12-23.23.46:333][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/WorldCamera_Auto1.uasset
+[2017.08.12-23.23.46:334][850]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.08.12-23.26.27:191][411]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/FighterCharacter.h'
+[2017.08.12-23.26.27:279][411]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/pears/Documents/Unreal Projects/Fighter/Source/Fighter/FighterCharacter.cpp'
+[2017.08.12-23.32.30:015][687]Candidate modules for hot reload:
+[2017.08.12-23.32.30:015][687]  Fighter
+[2017.08.12-23.32.30:015][687]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 3165 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.32.30:018][687]Warning: Starting HotReload took  0.0s.
+[2017.08.12-23.32.34:987][138]LogSavePackage: Save=30.01ms
+[2017.08.12-23.32.34:988][138]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/WorldCamera4EDA3E52421323F3C4E5BD933FF8B098.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Blueprints/WorldCamera.uasset'
+[2017.08.12-23.32.34:994][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Blueprints/WorldCamera.uasset
+[2017.08.12-23.32.42:015][792]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-23.32.44:095][988]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:32:44 AM
+[2017.08.12-23.32.44:095][988]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.32.44:095][988]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.32.44:095][988]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.32.44:096][988]CompilerResultsLog: Info Reflection code generated for FighterEditor in 6.8523192 seconds
+[2017.08.12-23.32.44:096][988]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.08.12-23.32.44:096][988]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.32.44:096][988]CompilerResultsLog: Info Fighter.generated.cpp
+[2017.08.12-23.32.44:096][988]CompilerResultsLog:Error: Error c:\users\pears\documents\unreal projects\fighter\source\fighter\CombatCameraController.h(26) : error C2143: syntax error: missing ';' before '*'
+[2017.08.12-23.32.44:096][988]CompilerResultsLog:Error: Error c:\users\pears\documents\unreal projects\fighter\source\fighter\CombatCameraController.h(26) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.12-23.32.44:097][988]CompilerResultsLog:Error: Error c:\users\pears\documents\unreal projects\fighter\source\fighter\CombatCameraController.h(26) : error C2238: unexpected token(s) preceding ';'
+[2017.08.12-23.32.44:097][988]CompilerResultsLog:Error: Error C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.h(26) : error C2143: syntax error: missing ';' before '*'
+[2017.08.12-23.32.44:097][988]CompilerResultsLog:Error: Error C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.h(26) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.12-23.32.44:098][988]CompilerResultsLog:Error: Error C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.h(26) : error C2238: unexpected token(s) preceding ';'
+[2017.08.12-23.32.44:098][988]CompilerResultsLog:Error: Error C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.cpp(17) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': non-standard syntax; use '&' to create a pointer to member
+[2017.08.12-23.32.44:098][988]CompilerResultsLog:Error: Error C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.cpp(17) : error C2446: '<': no conversion from 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' to 'int'
+[2017.08.12-23.32.44:098][988]CompilerResultsLog:Error: Error C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\CombatCameraController.cpp(17) : note: There is no context in which this conversion is possible
+[2017.08.12-23.32.44:099][988]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\pears\Documents\Unreal Projects\Fighter\Binaries\Win64\UE4Editor-Fighter-3165.dll
+[2017.08.12-23.32.44:099][988]CompilerResultsLog: Info Total build time: 13.85 seconds (Local executor: 0.00 seconds)
+[2017.08.12-23.32.44:099][988]LogMainFrame: MainFrame: Module compiling took 14.100 seconds
+[2017.08.12-23.32.44:099][988]Warning: HotReload failed, recompile failed
+[2017.08.12-23.37.41:691][267]Candidate modules for hot reload:
+[2017.08.12-23.37.41:691][267]  Fighter
+[2017.08.12-23.37.41:691][267]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 8349 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.37.41:694][267]Warning: Starting HotReload took  0.0s.
+[2017.08.12-23.37.54:886][619]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:37:54 AM
+[2017.08.12-23.37.54:886][619]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.37.54:886][619]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.37.54:886][619]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info Reflection code generated for FighterEditor in 5.9292398 seconds
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info [2/3] Link UE4Editor-Fighter-8349.dll
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info [3/3] Link UE4Editor-Fighter-8349.lib
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8349.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8349.exp
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8349.suppressed.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8349.suppressed.exp
+[2017.08.12-23.37.54:887][619]CompilerResultsLog: Info Total build time: 12.96 seconds (Local executor: 2.35 seconds)
+[2017.08.12-23.37.54:888][619]LogMainFrame: MainFrame: Module compiling took 13.210 seconds
+[2017.08.12-23.37.54:963][619]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0017 seconds. Added 3 classes and 2 folders.
+[2017.08.12-23.37.54:965][619]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.37.55:198][619]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2334 classes and 497 folders.
+[2017.08.12-23.37.55:199][619]Display: HotReload took 13.5s.
+[2017.08.12-23.37.58:862][938]LogSavePackage: Save=151.46ms
+[2017.08.12-23.37.58:862][938]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/ThirdPersonExampleMap2BFC116E41660B135204BDA9611A99BE.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.08.12-23.37.58:866][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.08.12-23.37.59:017][938]LogSavePackage: Save=119.95ms
+[2017.08.12-23.37.59:017][938]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/ThirdPersonExampleMap_BuiltData6784D6EE49464784A8D81AAEBC432D90.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.08.12-23.37.59:020][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.08.12-23.38.01:712][151]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.12-23.38.04:530][365]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.12-23.38.10:903][952]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/ThirdPersonCPP/Blueprints/WorldCamera.WorldCamera from CameraActor to CombatCameraController...
+[2017.08.12-23.38.10:911][952]BlueprintLog: New page: Compile WorldCamera
+[2017.08.12-23.38.12:504][ 64]BlueprintLog: New page: Compile WorldCamera
+[2017.08.12-23.38.21:222][839]BlueprintLog: New page: Compile WorldCamera
+[2017.08.12-23.38.23:049][990]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-23.38.23:092][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.38.23:092][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-23.38.23:092][990]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 12, 2017, 9:38:23 AM)
+[2017.08.12-23.38.23:092][990]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.12-23.38.23:110][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017873s)
+[2017.08.12-23.38.23:111][990]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.12-23.38.23:111][990]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.08.12-23.38.23:112][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019445s)
+[2017.08.12-23.38.23:146][990]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.08.12-23.38.23:160][990]LogInit: FAudioDevice initialized.
+[2017.08.12-23.38.23:205][990]LogLoad: Game class is 'FighterGameMode'
+[2017.08.12-23.38.23:209][990]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.12-16.38.23
+[2017.08.12-23.38.23:210][990]LogWorld: Bringing up level for play took: 0.002972
+[2017.08.12-23.38.23:268][990]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2017.08.12-23.38.23:268][990]LogBlueprintUserMessages: [ThirdPersonCharacter_2] WorldCamera1
+[2017.08.12-23.38.23:268][990]LogBlueprintUserMessages: [ThirdPersonCharacter2_2] WorldCamera1
+[2017.08.12-23.38.23:268][990]LogTemp:Warning: ThirdPersonCharacter_2
+[2017.08.12-23.38.23:269][990]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.159
+[2017.08.12-23.38.23:269][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.38.29:033][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.38.29:079][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.48.05:535][ 16]LogSavePackage: Save=216.78ms
+[2017.08.12-23.48.05:535][ 16]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/ThirdPersonExampleMap_Auto21A046DF14DFACB5D38E1D99E06F871ED.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.08.12-23.48.05:544][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.08.12-23.48.05:550][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.297
+[2017.08.12-23.48.05:550][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.297
+[2017.08.12-23.48.05:557][ 16]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/WorldCamera] ([1] browsable assets)...
+[2017.08.12-23.48.05:558][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/WorldCamera]
+[2017.08.12-23.48.05:632][ 16]LogSavePackage: Save=56.44ms
+[2017.08.12-23.48.05:632][ 16]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/WorldCamera_Auto21C4A20B74928B8363B828BB946BD4DA7.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/WorldCamera_Auto2.uasset'
+[2017.08.12-23.48.05:640][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/WorldCamera_Auto2.uasset
+[2017.08.12-23.48.05:640][ 16]LogFileHelpers: Auto-saving content packages took 0.088
+[2017.08.12-23.48.42:559][500]LogSavePackage: Save=140.18ms
+[2017.08.12-23.48.42:559][500]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/ThirdPersonExampleMap66CBB3FE4ED96C0B0B3AFC81BCEF1ADF.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.08.12-23.48.42:568][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.08.12-23.48.42:585][500]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.323
+[2017.08.12-23.48.42:633][500]LogSavePackage: Save=32.19ms
+[2017.08.12-23.48.42:633][500]LogSavePackage: Moving '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Saved/WorldCameraB4D1F30D4350584344B71AAF3B36FEFD.tmp' to '../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Blueprints/WorldCamera.uasset'
+[2017.08.12-23.48.42:645][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/pears/Documents/Unreal Projects/Fighter/Content/ThirdPersonCPP/Blueprints/WorldCamera.uasset
+[2017.08.12-23.48.43:136][539]Candidate modules for hot reload:
+[2017.08.12-23.48.43:136][539]  Fighter
+[2017.08.12-23.48.43:136][539]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 8735 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.48.43:139][539]Warning: Starting HotReload took  0.0s.
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:48:56 AM
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info Reflection code generated for FighterEditor in 5.9454298 seconds
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info Performing 4 actions (9 in parallel)
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info Fighter.generated.cpp
+[2017.08.12-23.48.56:415][808]CompilerResultsLog: Info [3/4] Link UE4Editor-Fighter-8735.dll
+[2017.08.12-23.48.56:416][808]CompilerResultsLog: Info [4/4] Link UE4Editor-Fighter-8735.lib
+[2017.08.12-23.48.56:416][808]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8735.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8735.exp
+[2017.08.12-23.48.56:416][808]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8735.suppressed.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-8735.suppressed.exp
+[2017.08.12-23.48.56:416][808]CompilerResultsLog: Info Total build time: 13.07 seconds (Local executor: 2.56 seconds)
+[2017.08.12-23.48.56:416][808]LogMainFrame: MainFrame: Module compiling took 13.294 seconds
+[2017.08.12-23.48.56:492][808]LogClass: Could not find existing class CombatCameraController in package /Script/Fighter for HotReload, assuming new class
+[2017.08.12-23.48.56:492][808]LogClass: Function CameraLookController is new.
+[2017.08.12-23.48.56:492][808]LogClass: Function PointBetweenTwoActors is new.
+[2017.08.12-23.48.56:492][808]LogClass: Function SetDefaults is new.
+[2017.08.12-23.48.56:499][808]LogHotReload: Re-instancing CombatCameraController after hot-reload.
+[2017.08.12-23.48.56:871][808]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2017.08.12-23.48.56:874][808]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.48.57:122][808]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2334 classes and 497 folders.
+[2017.08.12-23.48.57:122][808]Display: HotReload took 14.0s.
+[2017.08.12-23.48.58:505][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-23.48.58:516][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.48.58:517][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-23.48.58:517][920]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 12, 2017, 9:48:58 AM)
+[2017.08.12-23.48.58:517][920]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.12-23.48.58:535][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018178s)
+[2017.08.12-23.48.58:536][920]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.12-23.48.58:537][920]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2017.08.12-23.48.58:537][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019603s)
+[2017.08.12-23.48.58:587][920]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.08.12-23.48.58:600][920]LogInit: FAudioDevice initialized.
+[2017.08.12-23.48.58:632][920]LogLoad: Game class is 'FighterGameMode'
+[2017.08.12-23.48.58:635][920]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.12-16.48.58
+[2017.08.12-23.48.58:636][920]LogWorld: Bringing up level for play took: 0.002521
+[2017.08.12-23.48.58:637][920]LogBlueprintUserMessages: [ThirdPersonCharacter_2] WorldCamera1
+[2017.08.12-23.48.58:637][920]LogBlueprintUserMessages: [ThirdPersonCharacter2_2] WorldCamera1
+[2017.08.12-23.48.58:637][920]LogTemp:Warning: ThirdPersonCharacter_2
+[2017.08.12-23.48.58:637][920]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.527
+[2017.08.12-23.48.58:637][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.49.00:291][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.49.00:338][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.50.35:476][854]Candidate modules for hot reload:
+[2017.08.12-23.50.35:476][854]  Fighter
+[2017.08.12-23.50.35:476][854]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Fighter -ModuleWithSuffix Fighter 368 Win64 Development -editorrecompile -canskiplink "C:/Users/pears/Documents/Unreal Projects/Fighter/Fighter.uproject" ]
+[2017.08.12-23.50.35:479][854]Warning: Starting HotReload took  0.0s.
+[2017.08.12-23.50.49:341][711]CompilerResultsLog: New page: Compilation - Aug 12, 2017, 9:50:49 AM
+[2017.08.12-23.50.49:342][711]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.08.12-23.50.49:342][711]CompilerResultsLog: Info Parsing headers for FighterEditor
+[2017.08.12-23.50.49:342][711]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\pears\Documents\Unreal Projects\Fighter\Fighter.uproject" "C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\FighterEditor\Development\FighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.12-23.50.49:343][711]CompilerResultsLog: Info Reflection code generated for FighterEditor in 6.1610425 seconds
+[2017.08.12-23.50.49:343][711]CompilerResultsLog: Info Performing 3 actions (9 in parallel)
+[2017.08.12-23.50.49:344][711]CompilerResultsLog: Info CombatCameraController.cpp
+[2017.08.12-23.50.49:344][711]CompilerResultsLog: Info [2/3] Link UE4Editor-Fighter-368.dll
+[2017.08.12-23.50.49:344][711]CompilerResultsLog: Info [3/3] Link UE4Editor-Fighter-368.lib
+[2017.08.12-23.50.49:344][711]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-368.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-368.exp
+[2017.08.12-23.50.49:345][711]CompilerResultsLog: Info    Creating library C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-368.suppressed.lib and object C:\Users\pears\Documents\Unreal Projects\Fighter\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Fighter-368.suppressed.exp
+[2017.08.12-23.50.49:346][711]CompilerResultsLog: Info Total build time: 13.45 seconds (Local executor: 2.75 seconds)
+[2017.08.12-23.50.49:346][711]LogMainFrame: MainFrame: Module compiling took 13.882 seconds
+[2017.08.12-23.50.49:469][711]LogContentBrowser: Native class hierarchy updated for 'Fighter' in 0.0019 seconds. Added 3 classes and 2 folders.
+[2017.08.12-23.50.49:472][711]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.08.12-23.50.49:717][711]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2334 classes and 497 folders.
+[2017.08.12-23.50.49:718][711]Display: HotReload took 14.3s.
+[2017.08.12-23.50.54:483][731]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.12-23.50.54:494][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.08.12-23.50.54:495][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.12-23.50.54:495][731]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 12, 2017, 9:50:54 AM)
+[2017.08.12-23.50.54:495][731]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.08.12-23.50.54:516][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020669s)
+[2017.08.12-23.50.54:517][731]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.12-23.50.54:518][731]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2017.08.12-23.50.54:518][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022760s)
+[2017.08.12-23.50.54:604][731]LogInit: XAudio2 using 'Speakers / Headphones (Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2017.08.12-23.50.54:622][731]LogInit: FAudioDevice initialized.
+[2017.08.12-23.50.54:656][731]LogLoad: Game class is 'FighterGameMode'
+[2017.08.12-23.50.54:660][731]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.08.12-16.50.54
+[2017.08.12-23.50.54:661][731]LogWorld: Bringing up level for play took: 0.003236
+[2017.08.12-23.50.54:662][731]LogBlueprintUserMessages: [ThirdPersonCharacter2_2] WorldCamera1
+[2017.08.12-23.50.54:662][731]LogBlueprintUserMessages: [ThirdPersonCharacter_2] WorldCamera1
+[2017.08.12-23.50.54:662][731]LogTemp:Warning: ThirdPersonCharacter2_2

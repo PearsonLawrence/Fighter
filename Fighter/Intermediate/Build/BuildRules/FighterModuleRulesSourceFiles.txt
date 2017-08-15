@@ -1,0 +1,3 @@
+C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter\Fighter.Build.cs
+C:\Users\pears\Documents\Unreal Projects\Fighter\Source\Fighter.Target.cs
+C:\Users\pears\Documents\Unreal Projects\Fighter\Source\FighterEditor.Target.cs

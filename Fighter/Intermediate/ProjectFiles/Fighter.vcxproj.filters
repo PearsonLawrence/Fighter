@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Fighter.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{23CEAAD3-32A8-432C-AC50-E9FFE0E25227}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Fighter.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\FighterEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A54ACB6C-DB12-4956-A5EB-82A9406920EA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Fighter">
+			<UniqueIdentifier>{1A03A137-D2A6-4343-A5C1-42C9821B18A9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Fighter\CombatCameraController.cpp">
+			<Filter>Source\Fighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fighter\CombatCameraController.h">
+			<Filter>Source\Fighter</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Fighter\Fighter.Build.cs">
+			<Filter>Source\Fighter</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Fighter\Fighter.cpp">
+			<Filter>Source\Fighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fighter\Fighter.h">
+			<Filter>Source\Fighter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fighter\FighterCharacter.cpp">
+			<Filter>Source\Fighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fighter\FighterCharacter.h">
+			<Filter>Source\Fighter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fighter\FighterGameMode.cpp">
+			<Filter>Source\Fighter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fighter\FighterGameMode.h">
+			<Filter>Source\Fighter</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
